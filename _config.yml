@@ -1,0 +1,20 @@
+# Site settings
+title: "Ghostdog"
+person_name: Ghostdog
+person_nickname: ghostdog1971
+email: "ghostdog1971@protonmail.com"
+description: "Penetration Tester"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: https://ghostdog1971.github.io # the base hostname & protocol for your site
+permalink: /:title/
+exclude: [vendor] # avoid irritating errors
+
+#vcard_url: url_here
+twitter_username: Ghostdog1971
+github_username: ghostdog1971
+linkedin_username: ghostdog1971
+hackthebox:
+  id: 173
+
+# Build settings
+markdown: kramdown
