@@ -2,12 +2,7 @@
 layout: default
 ---
 <header class="site-header">
-  <script type="text/javascript" src="particles.min.js"></script>
-  <script type="text/javascript">
-      particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('particles.js loaded - callback');
-      });
-  </script>
+ 
  <div class="site-header-container">
     <img class="site-avatar" src="{{ "/img/me.jpg" | prepend: site.baseurl }}">
     <span class="content">
@@ -32,4 +27,10 @@ layout: default
     </span>
   </div>	
   <div id="particles-js"></div>
+ <script type="text/javascript" src="particles.min.js"></script>
+  <script type="text/javascript">
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.js loaded - callback');
+      });
+  </script>
 </header>
